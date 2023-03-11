@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 /* IE */
 select::-ms-expand {
@@ -23,9 +23,8 @@ select::-ms-expand {
 }
 
 .layoutBox {
-  margin-top: 25px;
   width: 500px;
-  height: 60vh;
+  height: 600px;
   background-color: #ffebcd;
 }
 
@@ -52,8 +51,6 @@ select::-ms-expand {
 .moneyLayout {
   width: 400px;
   height: 50px;
-  /* border-radius: 10px; */
-  /* background-color: #ff8c00; */
   margin: 0 auto;
   display: flex;
 }
@@ -77,6 +74,11 @@ select::-ms-expand {
   height: 100%;
   border: none;
   background-color: #ff8c00;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+}
+.unitSlect select:focus {
+  border: none;
 }
 .unitSlect select option {
   font-size: 16px;
@@ -88,4 +90,6 @@ select::-ms-expand {
   background-color: #ff8c00;
   border: none;
   padding: 0 0 0 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
 }

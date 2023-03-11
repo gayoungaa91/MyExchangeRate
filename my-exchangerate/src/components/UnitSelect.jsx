@@ -1,15 +1,4 @@
-import { useState, useEffect } from 'react';
-
 const UnitSelect = ({ unit, selectUnit, onChangeUnit }) => {
-  console.log(
-    '🚀 ~ file: UnitSelect.jsx:4 ~ UnitSelect ~ selectUnit:',
-    selectUnit
-  );
-  // console.log('🚀 ~ file: UnitSelect.jsx:5 ~ UnitSelect ~ unit:', unit);
-  // useEffect(() => {
-  //   fetchKrwSalesList();
-  // }, []);
-
   return (
     <div className='unitSlect'>
       <select name='code' onChange={onChangeUnit}>
@@ -26,5 +15,3 @@ const UnitSelect = ({ unit, selectUnit, onChangeUnit }) => {
 };
 
 export default UnitSelect;
-// {/* <option value='usd'>{data.base_code}</option>
-// <option value='krw'>KRW</option> */}
